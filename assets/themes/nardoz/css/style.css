@@ -116,7 +116,7 @@ body {
 
 /* Bootstrap example */
 body {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 
@@ -221,7 +221,7 @@ body {
 
 .info-genres .fiso-toggle-category.last-selected:after {
   content: "";
-}
+}meetup
 
 
 
@@ -239,7 +239,7 @@ body {
   top: 0;
   left: 0;
   z-index: 400;
-  -webkit-transition: background 1s;
+  -webkit-transition: background 1s;meetup
   -moz-transition: background 1s;
   -o-transition: background 1s;
   transition: background 1s;
@@ -314,3 +314,15 @@ body {
   min-width: 700px;
 }
 
+#members .name{
+   padding-top: 16px;
+}
+
+#members .follow{
+   padding-top: 11px;
+   text-align: center;
+}
+
+.groups .meetup {
+  text-align: center;
+}
