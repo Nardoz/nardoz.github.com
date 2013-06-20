@@ -116,7 +116,7 @@ body {
 
 /* Bootstrap example */
 body {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 
@@ -246,6 +246,21 @@ body {
   content: "";
 }
 
+#members .name{
+   padding-top: 16px;
+}
+
+#members .follow{
+   padding-top: 11px;
+   text-align: center;
+}
+
+.groups .meetup {
+  text-align: center;
+}
+
+
+
 
 
 
@@ -315,3 +330,4 @@ body {
 #search, #tags {
   text-align: center
 }
+
