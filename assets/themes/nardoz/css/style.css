@@ -1,0 +1,162 @@
+
+body {
+  padding: 0;
+}
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px; }
+
+.container-narrow > hr {
+  margin: 30px 0; }
+
+.navbar .nav {
+  float: right; }
+
+/* posts index */
+.post > h3.title {
+  position: relative;
+  padding-top: 10px; }
+
+.post > h3.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
+
+.post > .more {
+  margin: 10px 0;
+  text-align: left; }
+
+/* post-full*/
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+/* tag_box */
+.tag_box {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; }
+
+.tag_box li {
+  line-height: 28px; }
+
+.tag_box li i {
+  opacity: 0.9; }
+
+.tag_box.inline li {
+  float: left; }
+
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; }
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.tag_box a:hover {
+  background-color: #e5e5e5; }
+
+.tag_box a.active {
+  background: #57A957;
+  border: 1px solid #4c964d;
+  color: #FFF; }
+
+.container-narrow {
+  margin-top: 80px;
+}
+
+#navigation {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  height: 3em;
+  letter-spacing: 0.2em;
+  position: absolute;
+  padding-top: 1.5em;
+  top: 0;
+  left: 0;
+  z-index: 400;
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+#navigation.dark {
+  background-color: #333;
+  opacity: 0.8;
+  -webkit-transition: background 0.8s;
+  -moz-transition: background 0.8s;
+  -o-transition: background 0.8s;
+  transition: background 0.8s;
+  position: fixed;
+}
+
+#navigation .logo {
+  font-weight: bold;
+  font-size: 1.6em;
+  float: left;
+  display: none;
+  margin-left: 3em;
+}
+
+#navigation.dark .logo {
+  display: block;
+  color: #fff;
+  font-size: 1.7em;
+}
+
+#navigation ul {
+  float: right;
+  margin-right: 3em;
+}
+
+#navigation ul li {
+  display: inline;
+  margin: 0 1.5em;
+}
+
+#navigation ul li.active a {
+  text-decoration: underline;
+}
+
+#navigation ul li a {
+  color: #fff;
+  font-size: 1.1em;
+  text-shadow: 0 0 4px #000;
+}
+
+ #slider {
+  position: relative;
+  overflow: hidden;
+  width:100% !important;
+  height:1000px !important;
+
+}
+
+#slider ul {
+  margin: 0;
+  padding: 0;
+}
+
+#slider ul li {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#slider img {
+  width: 100%;
+  min-width: 700px;
+}
+
