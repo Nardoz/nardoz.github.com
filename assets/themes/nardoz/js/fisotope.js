@@ -409,7 +409,7 @@
 			var or_filter = [];
 			var filter = "";
 			var big_table = [];
-			var sort_str = hashOptions['sort'] ? hashOptions['sort'] : 'original-order';
+			var sort_str = hashOptions['sort'] ? hashOptions['sort'] : 'title';
 			var sort_order = hashOptions['sort_order'] ? hashOptions['sort_order'] : methods.getSortDefault();
 			for ( facet_cats in hashOptions ) {
 				var cat_index = facet_cats.indexOf('_cats');
