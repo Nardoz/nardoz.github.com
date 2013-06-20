@@ -20,10 +20,13 @@ $(function() {
 
   if($('#projects').length > 0) {
 
+    $('#projects').html(generateProjects(projects));
+
     $('#projects').fisotope({
-        itemSelector: '.item',
-        layoutMode: 'fitRows',
-        getSortData: {
+      itemSelector: '.item',
+      layoutMode: 'masonry',
+      sortBy: 'title',
+      getSortData: {
         title: function ($elem) {
           return $elem.find('h2').text();
         }
@@ -36,3 +39,6 @@ $(function() {
   }
 
 });
+
+
+

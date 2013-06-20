@@ -73,6 +73,11 @@ body {
   margin-top: 80px;
 }
 
+.container-projects {
+  margin-top: 80px !important;
+  min-width: 300px
+}
+
 
 /* Isotope */
 /* Isotope animation */
@@ -153,11 +158,67 @@ body {
 
 
 
-/* Fisotope example css */
+#projects {
+  margin: 20px 0 0 0;
+}
+
 .item {
   margin: 10px;
-  padding: 4px;
   list-style-type: none;
+  width: 250px;
+  font-family: 'Open Sans', sans-serif;
+  border-top: 10px solid #ff5a00;
+  min-height: 20px;
+  margin-bottom: 30px;
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.item .well {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin: 0;
+  padding: 20px 20px 0 20px;
+}
+
+.item h2 {
+  margin: 0 0 10px 0;
+  font-size: 16pt;
+  font-weight: 700;
+  color: #000;
+  line-height: 20pt;
+  text-align: left;
+}
+
+.item .author {
+  color: #777;
+}
+
+.item .description {
+  color: #555;
+  margin: 0 0 10px 0;
+  -webkit-hyphens: auto;
+}
+
+.item .tags {
+  text-align: center;
+  border-top: 1px solid #f2f2f2;
+  padding-top: 10px;
+}
+
+.item .tags span {
+  margin: 4px
+}
+
+.item .links {
+  text-align: center;
+  border-top: 1px solid #f2f2f2;
+  padding-top: 10px;
+}
+
+.item .links a {
+  margin: 4px
 }
 
 .fiso-toggle-category {
@@ -328,6 +389,8 @@ body {
 }
 
 #search, #tags {
-  text-align: center
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
 }
 

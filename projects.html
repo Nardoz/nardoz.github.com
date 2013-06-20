@@ -1,29 +1,23 @@
 ---
-layout: page
-title: Projects
-tagline: Projects by Nardoz
+layout: default
+title: Proyectos
 ---
 {% include JB/setup %}
 
-<div id="search">
-  <input type="text" class="fiso-search" name="query" placeholder="Buscar" />
+<div class="container-projects">
+
+  <div class="page-header">
+    <h1>{{ page.title }}</h1>
+  </div>
+
+  <div id="search">
+    <input type="text" class="fiso-search" name="query" placeholder="Buscar" />
+  </div>
+
+  <div id="tags" class="fiso-selector" fiso-facet="tags">
+    <span class="fiso-example"><a href="#"></a></span>
+  </div>
+
+  <ul id="projects"></ul>
+
 </div>
-
-<div id="tags" class="fiso-selector" fiso-facet="tags">
-  <span class="fiso-example"><a href="#"></a></span>
-</div>
-
-<ul id="projects">
-
-  <li class="item" fiso-tags=".Open+Data.Java.">
-    <h2>RestBA</h2>
-    <p>RestBA es una librería java pensada para acceder a los datos de la Ciudad de Buenos Aires de una manera simple y flexible.</p>
-    <p><strong>Autores:</strong> Nicolás Melendez</p>
-    <p><strong>Github:</strong> <a href="https://github.com/RestOpenGov/RestOpenGov/tree/master/RestBA">https://github.com/RestOpenGov/RestOpenGov/tree/master/RestBA</a></p>
-    <p>
-      <small>Open Data</small>
-      <small>Java</small>
-    </p>
-  </li>
-
-</ul>
