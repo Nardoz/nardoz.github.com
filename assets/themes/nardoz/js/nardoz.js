@@ -18,19 +18,18 @@ $(function() {
   }
 
 
-
   if($('#projects').length > 0) {
+
     $('#projects').fisotope({
         itemSelector: '.item',
         layoutMode: 'fitRows',
         getSortData: {
-        title: function ( $elem ) {
+        title: function ($elem) {
           return $elem.find('h2').text();
         }
       },
       default_facet_operator: {
-        tags:'or',
-        res_format:'and'
+        tags:'and'
       }
     });
 

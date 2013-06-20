@@ -161,12 +161,35 @@ body {
 }
 
 .fiso-toggle-category {
-  background-color: #eee;
 
+  background-color: rgb(153, 153, 153);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-collapse: separate;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  height: 14px;
+  line-height: 14px;
+  padding: 2px 4px;
+  margin: 0 3px;
+  text-align: left;
+  text-shadow: #000 0 -1px 0;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.fiso-toggle-category:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .fiso-toggle-category.selected {
-  background-color: #ccc;
+  background-color: rgb(58, 135, 173);
 }
 
 .fiso-toggle-category.and {
@@ -174,7 +197,7 @@ body {
 }
 
 .fiso-toggle-category.and.available {
-  display: block;
+
 }
 
 .selectors li {
@@ -189,37 +212,37 @@ body {
   text-align: center;
 }
 
-.info-genres .fiso-toggle-category {
+.info-tags .fiso-toggle-category {
   display: none;
   padding-right: 5px;
 }
 
-.info-genres .fiso-toggle-category.selected {
+.info-tags .fiso-toggle-category.selected {
   display: inline-block;
   text-decoration: none;
 }
 
-.info-genres .fiso-toggle-category.available {
+.info-tags .fiso-toggle-category.available {
   display: none;
 }
 
-.info-genres.and .fiso-toggle-category:after {
+.info-tags.and .fiso-toggle-category:after {
   content: " and";
   text-decoration: none;
   color: black;
 }
 
-.info-genres.or .fiso-toggle-category:after {
+.info-tags.or .fiso-toggle-category:after {
   content: " or";
   text-decoration: none;
   color: black;
 }
 
-.info-genres.fiso-selected-0 .fiso-toggle-facet, .info-genres.fiso-selected-1 .fiso-toggle-facet {
+.info-tags.fiso-selected-0 .fiso-toggle-facet, .info-tags.fiso-selected-1 .fiso-toggle-facet {
   font-weight: bold;
 }
 
-.info-genres .fiso-toggle-category.last-selected:after {
+.info-tags .fiso-toggle-category.last-selected:after {
   content: "";
 }
 
@@ -289,28 +312,6 @@ body {
   text-shadow: 0 0 4px #000;
 }
 
- #slider {
-  position: relative;
-  overflow: hidden;
-  width:100% !important;
-  height:1000px !important;
-
+#search, #tags {
+  text-align: center
 }
-
-#slider ul {
-  margin: 0;
-  padding: 0;
-}
-
-#slider ul li {
-  list-style: none;
-  float: left;
-  margin: 0;
-  padding: 0;
-}
-
-#slider img {
-  width: 100%;
-  min-width: 700px;
-}
-

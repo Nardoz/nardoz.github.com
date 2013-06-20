@@ -5,25 +5,25 @@ tagline: Projects by Nardoz
 ---
 {% include JB/setup %}
 
-<div class="row-fluid">
-  <div class="span12">
-    <input type="text" class="fiso-search pull-right" name="query" placeholder="Buscar" />
-  </div>
+<div id="search">
+  <input type="text" class="fiso-search" name="query" placeholder="Buscar" />
 </div>
 
-<div class="fiso-selector" fiso-facet="tags" >
-  <ul>
-    <li class="fiso-example"><a href="#"></a></li>
-  </ul>
+<div id="tags" class="fiso-selector" fiso-facet="tags">
+  <span class="fiso-example"><a href="#"></a></span>
 </div>
 
 <ul id="projects">
-  <li class="item" fiso-tags=".Action.Adventure.Fantasy.Science Fiction.Family.">
-    <h2 class="hide">Star Wars: Episode VI - Return of the Jedi</h2>
-    <small>Action</small> <small>Adventure</small> <small>Fantasy</small> <small>Science Fiction</small> <small>Family</small>
+
+  <li class="item" fiso-tags=".Open+Data.Java.">
+    <h2>RestBA</h2>
+    <p>RestBA es una librería java pensada para acceder a los datos de la Ciudad de Buenos Aires de una manera simple y flexible.</p>
+    <p><strong>Autores:</strong> Nicolás Melendez</p>
+    <p><strong>Github:</strong> <a href="https://github.com/RestOpenGov/RestOpenGov/tree/master/RestBA">https://github.com/RestOpenGov/RestOpenGov/tree/master/RestBA</a></p>
+    <p>
+      <small>Open Data</small>
+      <small>Java</small>
+    </p>
   </li>
-  <li class="item" fiso-tags=".Action.Adventure.Thriller.War.">
-    <h2 class="hide">Rambo First Blood</h2>
-    <small>Action</small><small>Adventure</small><small>Thriller</small><small>War</small>
-  </li>
+
 </ul>
