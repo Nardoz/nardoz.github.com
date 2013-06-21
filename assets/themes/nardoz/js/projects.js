@@ -60,7 +60,7 @@ var projects = [
   },
   {
     title: 'PlayBafici',
-    author: 'Pablo Paladino, Alan Reid, Sebastián Scarano, Nicolás Melendez',
+    author: 'Pablo Paladino, Alan Reid, Sebastián Scarano, Nicolás Melendez, Federica Pelzel',
     description: 'Trivia sobre las películas del festival de Bafici. Aplicación ganadora de una mención especial en Cultura en el Hackatón del Gobierno de la Ciudad de Buenos Aires 2012.',
     links: [
       { title: 'Demo', url: 'http://playbafici.com.ar/' },
