@@ -182,7 +182,7 @@ function generateProjects(projects) {
     html += '<li class="item" fiso-tags=".' + project.tags.join('.') + '.">' +
                 '<div class="well">' +
                 '  <h2>' + project.title + '</h2>' +
-                '  <p class="author"><strong>Autor' + (project.author.split(',').length > 1 ? 's' : '') + ':</strong> ' + project.author + '</p>' +
+                '  <p class="author"><strong>Autor' + (project.author.split(',').length > 1 ? 'es' : '') + ':</strong> ' + project.author + '</p>' +
                 '  <p class="description">' + project.description + '</p>' +
                 '</div>' +
                 '<p class="links">';
