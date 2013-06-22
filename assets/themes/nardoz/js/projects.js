@@ -170,6 +170,16 @@ var projects = [
     ],
     tags: [ 'NodeJS', 'Javascript', 'Arduino', 'RaspberryPi' ]
   },
+  {
+    title: 'Fisotope',
+    author: 'Matias Saguir',
+    description: 'Plugin de Jquery que envuelve a la libreria Isotope permitiendo filtrar, ordenar y buscar tarjetas utilizando clases de html en vez de código Javascript',
+    links: [
+      { title: 'Demo', url: 'http://mativs.github.io/fisotope/example.html' },
+      { title: 'Repo en Github', url: 'https://github.com/mativs/fisotope' }
+    ],
+    tags: [ 'Javascript', 'Jquery' ]
+  },
 ];
 
 
