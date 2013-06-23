@@ -14,6 +14,7 @@
 
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/bootstrap/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
@@ -35,24 +36,55 @@
 
   <body>
 
-    <div id="navigation">
-        <a class="logo" href="{{ HOME_PATH }}">{{ site.title }}</a>
-        <ul>
-          <li{% if page.url == "talks.html" %} class="active"{% endif %}><a href="{{ BASE_PATH }}talks.html">Talks</a></li>
-          <li{% if page.url == "projects.html" %} class="active"{% endif %}><a href="{{ BASE_PATH }}projects.html">Proyectos</a></li>
-          <li{% if page.url == "members.html" %} class="active"{% endif %}><a href="{{ BASE_PATH }}community.html">Comunidad</a></li>
-          <li{% if page.url == "blog.html" %} class="active"{% endif %}><a href="{{ BASE_PATH }}blog.html">Blog</a></li>
+    <div id="wrapper">
+        <div id="sidebar">
+            <a class="btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <!-- <div id="logo"> <a href="/"><img src="img/logo.svg" alt="logo" /></a> </div> -->
+            <nav id="nav" class="navigation" role="navigation">
+                <ul class="unstyled">
+                    <li class="active" data-section="1"><i class="icon-home"></i> <span>{{ site.title }}</span></li>
+                    <li data-section="2" class=""><i class="icon-group"></i> <span>Comunidad</span></li>
+                    <li data-section="3" class=""><i class="icon-laptop"></i> <span>Proyectos</span></li>
+                    <li data-section="4" class=""><i class="icon-comments"></i> <span>Talks</span></li>
+                    <li data-section="5" class=""><i class="icon-pencil"></i> <span>Blog</span></li>
+                </ul>
+            </nav>
+        </div>
 
-
-          <!--
-          {% assign pages_list = site.pages %}
-          {% assign group = 'navigation' %}
-          {% include JB/pages_list %}
-        -->
-        </ul>
+        <div id="container">
+            <section class="section" id="section1" data-section="1">
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <div class="span12 intro">
+                            <hgroup>
+                                <h1>Nardoz</h1>
+                            </hgroup>
+                            <button class="btn-inverse" data-section="2">
+                                Quienes <span>somos</span>
+                                <i class="icon-circle-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="section2" data-section="2">
+                {% include pages/community.html %}
+            </section>
+            <section class="section" id="section3" data-section="3">
+                //
+            </section>
+            <section class="section" id="section4" data-section="4">
+                //
+            </section>
+            <section class="section" id="section5" data-section="5">
+                //
+            </section>
+        </div>
     </div>
-
-    {{ content }}
 
     <div class="container-narrow">
       <footer>
@@ -65,13 +97,13 @@
 
     {% include JB/analytics %}
 
-    <script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
-    <script src="{{ ASSET_PATH }}/js/unslider.min.js"></script>
     <script src="{{ ASSET_PATH }}/js/jquery.1.9.1.min.js"></script>
-    <script src="{{ ASSET_PATH }}/js/jquery.isotope.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
+    <!-- <script src="{{ ASSET_PATH }}/js/jquery.isotope.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/unslider.min.js"></script>
     <script src="{{ ASSET_PATH }}/js/jquery.ba-bbq.min.js"></script>
     <script src="{{ ASSET_PATH }}/js/fisotope.js"></script>
-    <script src="{{ ASSET_PATH }}/js/projects.js"></script>
+    <script src="{{ ASSET_PATH }}/js/projects.js"></script> -->
     <script src="{{ ASSET_PATH }}/js/nardoz.js"></script>
   </body>
 </html>
