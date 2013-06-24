@@ -353,15 +353,12 @@ a:hover {
 
 /* Testimonial */
 
-#testimonial {
+.red-row {
   background:#e74c3c;
-  text-align:center;
-  padding:40px;
-  background-attachment: scroll;
-  background-position: center top;
-  margin-left: -50px;
-  position: relative;
-  padding: 150px 0 170px;
+}
+.container-fluid.red-row {
+  padding: 40px 80px;
+  width: 100%;
 }
 
 #testimonial h2{
@@ -598,12 +595,21 @@ a:hover {
 
 /* Section 4 */
 
+#section2 {
+  color: #fff;
+  padding: 0;
+}
+
+#section2 hr {
+  border-color: #fff;
+}
+
 #section2  h2 {
   margin-left: -4px;
 }
 
 #section2 a {
-  color: #000;
+  color: #fff;
 }
 
 #section2 .read-more a, #section2 .read-more a:hover {
@@ -659,6 +665,53 @@ a:hover {
   border-bottom: 1px solid #151515;
     height: 35px;
     margin-bottom: 18px;
+}
+
+.member-grid {
+  margin: 0;
+  text-align: center;
+}
+
+.member-grid li {
+  display: inline-block;
+  margin: 0 0 20px;
+  max-width: 250px;
+  vertical-align: top;
+  width: 25%;
+}
+
+.member-grid li .img-circle {
+  height: 100px;
+  width: 100px;
+}
+
+.member-grid li .member-info {
+  margin: 0 15px;
+}
+
+.member-grid li .member-info h3 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.member-grid i {
+  background: rgba(255, 255, 255, .8);
+  border-radius: 5px;
+  padding: 2px 3px;
+  transition: background-color 300ms ease;
+}
+
+.member-grid a:hover i {
+  background: rgba(255, 255, 255, 1);
+}
+
+.member-grid .icon-twitter {
+  color: #00aced;
+}
+
+.member-grid .icon-code {
+  color: #000;
 }
 
 
