@@ -912,6 +912,18 @@ a:hover {
     padding: 0px;
   }
 
+  #section2 .span10 {
+    margin-left: -80px;
+  }
+
+  .member-grid {
+    margin: 20px 0;
+  }
+
+  .member-grid li {
+    width: 50%;
+  }
+
   .section {
     padding: 100px 0;
   }
