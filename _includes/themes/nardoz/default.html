@@ -50,8 +50,8 @@
                     <li class="active" data-section="1"><i class="icon-home"></i> <span>{{ site.title }}</span></li>
                     <li data-section="2" class=""><i class="icon-group"></i> <span>Comunidad</span></li>
                     <li data-section="3" class=""><i class="icon-laptop"></i> <span>Proyectos</span></li>
-                    <li data-section="4" class=""><i class="icon-comments"></i> <span>Talks</span></li>
-                    <li data-section="5" class=""><i class="icon-pencil"></i> <span>Blog</span></li>
+                    <!-- <li data-section="4" class=""><i class="icon-comments"></i> <span>Talks</span></li>
+                    <li data-section="5" class=""><i class="icon-pencil"></i> <span>Blog</span></li> -->
                 </ul>
             </nav>
         </div>
@@ -78,23 +78,21 @@
             <section class="section" id="section3" data-section="3">
                 {% include pages/projects.html %}
             </section>
-            <section class="section" id="section4" data-section="4">
-                //
-            </section>
-            <section class="section" id="section5" data-section="5">
-                //
-            </section>
+            <!-- <section class="section" id="section4" data-section="4">
+                {% include pages/talks.html %}
+            </section> -->
+            <!-- <section class="section" id="section5" data-section="5">
+                {% include pages/blog.html %}
+            </section> -->
         </div>
     </div>
 
-    <div class="container-narrow">
-      <footer>
+    <footer id="thanks">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>. Header image credits goes to <a href="http://www.flickr.com/photos/gcbadata/8740978207/in/photostream/" target="_blank">GCBA</a>.
         </p>
-      </footer>
-    </div>
+    </footer>
 
     {% include JB/analytics %}
 

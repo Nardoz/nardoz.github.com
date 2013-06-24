@@ -1265,3 +1265,15 @@ a:hover {
 .groups .meetup {
   text-align: center;
 }
+
+
+#thanks {
+  color: #333;
+  font-size: 10px;
+  padding-left: 80px;
+  text-transform: uppercase;
+}
+#thanks a {
+  color: #333;
+  font-weight: bold;
+}
