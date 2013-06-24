@@ -357,7 +357,7 @@ a:hover {
   background:#e74c3c;
 }
 .container-fluid.red-row {
-  padding: 40px 80px;
+  padding: 90px 80px;
   width: 100%;
 }
 
@@ -503,10 +503,15 @@ a:hover {
 
 #section3 {
   background-image:url(../img/project-bg.jpg);
-  color: #F1F1F1;
+  color: #2d2d2d;
+  padding: 90px 80px;
 }
 
-#section3 h2 {
+#section3 hr {
+  border-color: #2d2d2d;
+}
+
+/*#section3 h2 {
   margin-left: -5px;
 }
 
@@ -526,7 +531,7 @@ a:hover {
 
 #section3 .center {
   text-align:center
-}
+}*/
 
 /* Section 6 (Price Tables) */
 
@@ -956,7 +961,7 @@ a:hover {
     width: 55%;
   }
 
-  #section3 .content img {
+  /*#section3 .content img {
       margin-top: 30px;
       padding: 1.5%;
     }
@@ -967,7 +972,7 @@ a:hover {
 
   #section3 .table {
     margin-top: 30px;
-  }
+  }*/
 
     #section5 .span8 {
       margin-top: 30px;
@@ -1039,9 +1044,9 @@ a:hover {
       padding: 3%;
   }
 
-  #section3 .table th, #section3 .table td {
+  /*#section3 .table th, #section3 .table td {
       font-size: 11px; font-size: 1.1rem;
-  }
+  }*/
 
   #section4 h4 {
       height: auto;
@@ -1053,4 +1058,210 @@ a:hover {
     font-weight:300;
   }
 
+}
+
+/* Isotope */
+/* Isotope animation */
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+#projects {
+  margin: 20px 0 0 0;
+}
+
+.item {
+  margin: 10px;
+  list-style-type: none;
+  width: 250px;
+  font-family: 'Open Sans', sans-serif;
+  border-top: 10px solid #ff5a00;
+  min-height: 20px;
+  margin-bottom: 30px;
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.item .well {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin: 0;
+  padding: 20px 20px 0 20px;
+}
+
+.item h2 {
+  margin: 0 0 10px 0;
+  font-size: 16pt;
+  font-weight: 700;
+  color: #000;
+  line-height: 20pt;
+  text-align: left;
+}
+
+.item .author {
+  color: #777;
+}
+
+.item .description {
+  color: #555;
+  margin: 0 0 10px 0;
+  -webkit-hyphens: auto;
+}
+
+.item .tags {
+  text-align: center;
+  border-top: 1px solid #f2f2f2;
+  padding-top: 10px;
+}
+
+.item .tags span {
+  margin: 4px
+}
+
+.item .links {
+  text-align: center;
+  border-top: 1px solid #f2f2f2;
+  padding-top: 10px;
+}
+
+.item .links a {
+  margin: 4px
+}
+
+.fiso-toggle-category {
+
+  background-color: rgb(153, 153, 153);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-collapse: separate;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  height: 14px;
+  line-height: 14px;
+  padding: 2px 4px;
+  margin: 0 3px;
+  text-align: left;
+  text-shadow: #000 0 -1px 0;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.fiso-toggle-category:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fiso-toggle-category.selected {
+  background-color: rgb(58, 135, 173);
+}
+
+#search .fiso-search {
+  border-radius: 0;
+}
+
+.fiso-toggle-category.and {
+
+}
+
+.fiso-toggle-category.and.available {
+
+}
+
+.selectors li {
+  display:inline-block;
+  margin: 0px 5px;
+}
+
+.item small {
+  font-size: 75%;
+  line-height: 15px;
+  display: block;
+  text-align: center;
+}
+
+.info-tags .fiso-toggle-category {
+  display: none;
+  padding-right: 5px;
+}
+
+.info-tags .fiso-toggle-category.selected {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.info-tags .fiso-toggle-category.available {
+  display: none;
+}
+
+.info-tags.and .fiso-toggle-category:after {
+  content: " and";
+  text-decoration: none;
+  color: black;
+}
+
+.info-tags.or .fiso-toggle-category:after {
+  content: " or";
+  text-decoration: none;
+  color: black;
+}
+
+.info-tags.fiso-selected-0 .fiso-toggle-facet, .info-tags.fiso-selected-1 .fiso-toggle-facet {
+  font-weight: bold;
+}
+
+.info-tags .fiso-toggle-category.last-selected:after {
+  content: "";
+}
+
+#members .name{
+   padding-top: 16px;
+}
+
+#members .follow{
+   padding-top: 11px;
+   text-align: center;
+}
+
+.groups .meetup {
+  text-align: center;
 }
