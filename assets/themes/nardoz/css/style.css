@@ -3,6 +3,14 @@ body {
   padding: 0;
 }
 
+.page-header {
+  margin-top: 40px;
+}
+
+.page-header h1 {
+  text-align: center
+}
+
 /* Custom container */
 .container-narrow {
   margin: 0 auto;

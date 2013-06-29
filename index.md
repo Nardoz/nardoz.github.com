@@ -1,86 +1,193 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Talks
 ---
 {% include JB/setup %}
 
 
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<h3>Año 2013</h3>
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Título</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>19/06/2013</td>
+      <td>
+        <strong>Real World Akka Recipes</strong> por Jamie Allen<br />
+        <span class="label label-important">Buenos Aires High Scalability Group</span>
+      </td>
+    </tr>
+    <tr>
+      <td>17/06/2013</td>
+      <td>
+        <strong>Effective Akka</strong> por Jamie Allen<br />
+        <span class="label label-important">Scala User Group Argentina</span>
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+      </td>
+    </tr>
+    <tr>
+      <td>30/05/2013</td>
+      <td>
+        <strong>Nardoz do diablo: Javascript Framework Battle</strong>
+        <ol>
+          <li><strong>AngularJS</strong> por Martin Gontovnikas</li>
+          <li><strong>EmberJS</strong> por Mariano Cortesi</li>
+          <li><strong>BackboneJS</strong> por Sebastián Scarano y Matías Urbano</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>16/04/2013</td>
+      <td>
+        <ol>
+          <li><strong>Ruby on Rails</strong> por Pablo Rodriguez y Martin Gontovnikas</li>
+          <li><strong>Flask en Raspberry Pi</strong> por Diego Ramirez</li>
+          <li><strong>Haml, Jade, Sass, Compass</strong> por Max Kraszewski </li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>02/03/2013</td>
+      <td><strong>Asado Nardoz de comienzo de año</strong></td>
+    </tr>
+  </tbody>
+</table>
 
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-
-    title : My Blog =)
-
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-
-    title : My Blog =)
-
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+<h3>Año 2012</h3>
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Título</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>18/08/2012</td>
+      <td>
+        <strong>Desayuno Nardoz</strong>
+        <ol>
+          <li><strong>SecureSocial</strong> por Jorge Aliss</li>
+          <li><strong>RaspberryPi</strong> por Fernando Rodriguez Olivera</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>??/07/2012</td>
+      <td><strong>RestOpenGov</strong><br />por Alan Reid y Nicolás Melendez</td>
+    </tr>
+    <tr>
+      <td>11/05/2012</td>
+      <td>
+        <strong>Hackathon de Gobierno Abierto. Presentación de RestOpenGov</strong><br />
+        por Nicolás Melendez, Alan Reid, Sebastián Scarano y Pablo Paladino
+      </td>
+    </tr>
+    <tr>
+      <td>05/05/2012</td>
+      <td>
+        <strong>Primer Hackathon de Play Framework 2.0 de Latinoamérica</strong><br />
+        <span class="label label-important">Play Framework Argentina User Group</span>
+      </td>
+    </tr>
+    <tr>
+      <td>27/04/2012</td>
+      <td><strong>Automatización de tareas en múltiples servidores con Puppet</strong><br/>por Fernando Rodriguez Olivera</td>
+    </tr>
+    <tr>
+      <td>09/04/2012</td>
+      <td><strong>Scalable Nardoz: Aplicaciones concurrentes y distribuídas con Akka</strong><br/>por Fernando Rodriguez Olivera</td>
+    </tr>
+    <tr>
+      <td>09/02/2012</td>
+      <td><strong>Introducción a Arduino</strong><br/>por Alan Reid</td>
+    </tr>
+  </tbody>
+</table>
 
 
+<h3>Año 2011</h3>
+
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Título</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>14/12/2011</td>
+      <td><strong>Cena Nardoz de fin de año</strong></td>
+    </tr>
+    <tr>
+      <td>23/11/2011</td>
+      <td><strong>Nardoz filosófico / Preview de Play Framework 2.0</strong><br/>por Sebastián Scarano</td>
+    </tr>
+    <tr>
+      <td>11/10/2011</td>
+      <td><strong>Git-flow. Procesamiento distribuído en realtime con Storm</strong><br/>por Gustavo Arjones</td>
+    </tr>
+    <tr>
+      <td>30/09/2011</td>
+      <td>
+        <strong>Play Framework</strong><br/>
+        por Sebastián Scarano y Jorge Aliss<br />
+        <span class="label label-important">Java User Group Argentina</span>
+      </td>
+    </tr>
+    <tr>
+      <td>09/09/2011</td>
+      <td><strong>Charla previa sobre Play Framework para Java User Group Argentina</strong><br/>por Sebastián Scarano y Jorge Aliss</td>
+    </tr>
+    <tr>
+      <td>17/08/2011</td>
+      <td><strong>Elasticsearch</strong><br/>por Gustavo Arjones</td>
+    </tr>
+    <tr>
+      <td>04/08/2011</td>
+      <td>
+        <strong>Introducción a Scala</strong><br/>
+        por Gustavo Arjones<br />
+        <span class="label label-important">Java User Group Argentina</span>
+      </td>
+    </tr>
+    <tr>
+      <td>31/06/2011</td>
+      <td><strong>Java Future calls usando play.F</strong><br/>por Chris Mordue</td>
+    </tr>
+    <tr>
+      <td>09/06/2011</td>
+      <td><strong>Nerdeada en Bangalor</strong></td>
+    </tr>
+    <tr>
+      <td>27/04/2011</td>
+      <td><strong>Scala</strong><br/>por Gustavo Arjones y Chris Mordue </td>
+    </tr>
+    <tr>
+      <td>07/04/2011</td>
+      <td><strong>Git</strong><br/>por Gustavo Arjones</td>
+    </tr>
+    <tr>
+      <td>22/03/2011</td>
+      <td><strong>Mockito, Integración Continua</strong><br/>por Gustavo Arjones</td>
+    </tr>
+    <tr>
+      <td>10/03/2011</td>
+      <td><strong>Node.js</strong><br/>por Alan Reid</td>
+    </tr>
+    <tr>
+      <td>wormhole</td>
+      <td><strong>Play Framework, Neo4J, Eurynome</strong></td>
+    </tr>
+    <tr>
+      <td>24/01/2011</td>
+      <td><strong>Primera reunión Nardoz</strong><br />en Bangalore</td>
+    </tr>
+  </tbody>
+</table>
